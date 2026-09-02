@@ -52,24 +52,28 @@ h1 {
 
 /* quartz/styles/custom.scss */
 
-/* 1. Default State (Reader Mode ON): Hide both sidebars */
-.sidebar.left,
-.sidebar.right {
-  opacity: 0 !important;
-  transition: opacity 0.2s ease;
-}
+@media (min-width: 1200px) {
 
-/* 2. Hover State: Reveal BOTH sidebars when hovering over EITHER sidebar */
-.sidebar.left:hover ~ .sidebar.right,
-.sidebar.left:hover,
-.sidebar.right:hover,
-:has(.sidebar.left:hover) .sidebar.right,
-:has(.sidebar.right:hover) .sidebar.left {
-  opacity: 1 !important;
-}
+  /* 1. Default State (Reader Mode ON): Hide both sidebars */
+  .sidebar.left,
+  .sidebar.right {
+    opacity: 0 !important;
+    transition: opacity 0.2s ease;
+  }
 
-/* 3. When reader-mode is explicitly OFF: Keep both fully visible */
-:root[reader-mode="on"] .sidebar.left,
-:root[reader-mode="on"] .sidebar.right {
-  opacity: 1 !important;
+  /* 2. Hover State: Reveal BOTH sidebars when hovering over EITHER sidebar */
+  .sidebar.left:hover ~ .sidebar.right,
+  .sidebar.left:hover,
+  .sidebar.right:hover,
+  :has(.sidebar.left:hover) .sidebar.right,
+  :has(.sidebar.right:hover) .sidebar.left {
+    opacity: 1 !important;
+  }
+
+  /* 3. When reader-mode is explicitly OFF: Keep both fully visible */
+  :root[reader-mode="on"] .sidebar.left,
+  :root[reader-mode="on"] .sidebar.right {
+    opacity: 1 !important;
+  }
+
 }
