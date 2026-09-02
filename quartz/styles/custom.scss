@@ -1,59 +1,12 @@
 @use "./variables.scss" as *;
+@use "./custom/fonts.scss" as *;
 
 h1 {
   text-transform: uppercase;
 }
 
-@font-face {
-  font-family: "Hack";
-  src: url("/static/fonts/Hack.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Hack";
-  src: url("/static/fonts/Hack-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Hack";
-  src: url("/static/fonts/Hack-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Hack";
-  src: url("/static/fonts/Hack-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-:root {
-  --font-default: "Hack", monospace !important;
-  --titleFont: "Hack", monospace !important;
-  --bodyFont: "Hack", monospace !important;
-  --headerFont: "Hack", monospace !important;
-  --codeFont: "Hack", monospace !important;
-  --font-text: "Hack", monospace !important;
-  --font-text-theme: "Hack", monospace !important;
-  --font-monospace: "Hack", monospace !important;
-  --font-monospace-default: "Hack", monospace !important;
-  --font-default-obsidia: "Hack", monospace !important;
-  --font-monospace-default-obsidian:"Hack", monospace !important;
-}
-
 /* quartz/styles/custom.scss */
-
 @media (min-width: 1200px) {
-
   /* 1. Default State (Reader Mode ON): Hide both sidebars */
   .sidebar.left,
   .sidebar.right {
@@ -77,3 +30,4 @@ h1 {
   }
 
 }
+

@@ -16,9 +16,9 @@ configuration:
     fontOrigin: selfHosted
     cdnCaching: false
     typography:
-      header: '"Hack", monospace'
-      body: '"Hack", monospace'
-      code: '"Hack", monospace'
+      header: Hack
+      body: Hack
+      code: Hack
     colors:
       lightMode:
         light: "#faf8f8"
