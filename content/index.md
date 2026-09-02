@@ -1,5 +1,5 @@
 ---
-title: Welcome To ｢PrinixOZ｣
+title: Welcome To PrinixOZ
 ---
 ![[Pasted image 20260903023944.png]]
 
