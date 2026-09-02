@@ -10,5 +10,6 @@ private/
 .replit
 replit.nix
 .quartz/
+content/.trash/
 quartz/cli/tui/dist/
 .turbo/

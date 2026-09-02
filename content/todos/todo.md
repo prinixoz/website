@@ -1,0 +1,3 @@
+- [x] Reading view on by default
+- [ ] Theme edit like gruvbox amoled theme.
+- [ ] Something for Media Tracking.
