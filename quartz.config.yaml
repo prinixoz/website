@@ -20,16 +20,6 @@ configuration:
       body: Hack
       code: Hack
     colors:
-      lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#BF616A"
-        tertiary: "#BF616A"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
       darkMode:
         light: "#000000"
         lightgray: "#393639"
@@ -41,6 +31,16 @@ configuration:
         tertiary: "#BF616A"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
+      lightMode:
+        light: "#faf8f8"
+        lightgray: "#e5e5e5"
+        gray: "#b8b8b8"
+        darkgray: "#4e4e4e"
+        dark: "#2b2b2b"
+        secondary: "#BF616A"
+        tertiary: "#BF616A"
+        highlight: rgba(143, 159, 169, 0.15)
+        textHighlight: "#fff23688"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -99,13 +99,12 @@ plugins:
   - source: "@quartz-community/roam"
     enabled: false
     order: 92
+
   - source: "@quartz-community/fonts"
     enabled: false
   - source: "@quartz-themes/core"
     enabled: false
-    options:
-      theme: vanilla-amoled-color
-      mode: dark
+
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
@@ -197,6 +196,8 @@ plugins:
       position: left
       priority: 30
       group: toolbar
+      options:
+        defaultMode: "dark"
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
