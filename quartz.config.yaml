@@ -223,8 +223,10 @@ plugins:
     enabled: false
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/prinixoz/
+        Leetcode: https://leetcode.com/u/prinixoz/
+        MonkeyType: https://monkeytype.com/profile/prinixoz
+        AniList: https://anilist.co/user/prinixoz
     layout:
       position: footer
       priority: 50
