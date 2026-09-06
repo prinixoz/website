@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: prinixoz.github.io
+  baseUrl: blog.prinixoz.com
   ignorePatterns:
     - private
     - templates
