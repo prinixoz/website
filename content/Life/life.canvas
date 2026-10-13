@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"c50037f50bfc95fb","x":-230,"y":-200,"width":150,"height":60,"type":"text","text":"life plan"},
+		{"id":"2927e23a37115782","x":-44,"y":-196,"width":250,"height":60,"type":"text","text":"some other thing that I am planing."}
+	],
+	"edges":[]
+}
