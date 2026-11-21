@@ -145,7 +145,7 @@ plugins:
   - source: "@quartz-community/content-page"
     enabled: true
   - source: "@quartz-community/folder-page"
-    enabled: true
+    enabled: false
     options:
       showFolderCount: true
   - source: "@quartz-community/tag-page"
